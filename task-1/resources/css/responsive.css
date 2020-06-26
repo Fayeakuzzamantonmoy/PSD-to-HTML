@@ -1,0 +1,472 @@
+@media screen and (max-width: 1230px) {
+
+}
+
+
+@media screen and (max-width: 1122px) {
+    .primary-card-text {
+        font-size: 30px;
+    }
+
+    .quote:after {
+        width: 135%;
+        height: 110%;
+        background-size: contain;
+    }
+    .info-text p {
+        font-size: 0.8em;
+    }
+    .accordion-link 
+    {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .footer-link a 
+    {
+        font-weight: 600;
+        color: #f2f2f2;
+    }
+
+    .testimonial-quote
+    {
+        height: 115px;
+        width: 115px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    .btn 
+    {
+        margin-left: -116px;
+    }
+    h1
+    {
+        font-size: 2em;
+    }
+    h2.primary-card-text {
+        text-align: center;
+        font-size: 32px;
+    }
+    .card-body.d-flex.justify-center {
+        flex-direction: column;
+    }
+    .client-logo 
+    {
+        width: 75%;
+    }
+    .client-logo a img
+    {
+        max-width: 230%;
+    }
+    .about
+    {
+        padding:0;    
+    }
+    .card-body.d-flex.justify-center {
+        margin-top: 30px;
+    }
+    
+    .quote 
+    {
+        transform: scale(0.5);    
+    }
+    .quote:after 
+    {
+        width: 158%;
+        height: 110%;
+    }
+    .image_part img {
+        margin-right: 116px;
+    }
+    p
+    {
+        font-size: 12px;
+    }
+    
+    li, a, button 
+    {
+        font-size: 14px;
+    }
+    .design-text 
+    {
+        font-size: 35px;
+    }
+    .efficiency .btn a 
+    {
+        margin-left: 118px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    li {
+        margin-top: 40rem;
+    }
+    h2.primary-card-text {
+        margin-left: 10px;
+    }
+    ul.nav-list {
+        z-index: -36;
+        top: 0;
+    }
+    .quite-text 
+    {
+        margin-left: 10px;
+    }
+    .client-logo a img {
+        max-width: 89%;
+    }
+    h2.primary-card-text 
+    {
+        margin-left: -74px;
+    } 
+    .secondary-card-text 
+    {
+        margin-left: -36px;
+        max-width: 100%;
+    }   
+    .banner_img 
+    {
+        right: 0px;
+    }
+    .banner_img img {
+        width: 50%;
+    }
+    .banner_content {
+        font-size: 12px;
+    }
+    
+    .banner_content {
+        /* margin-left: -12em; */
+    }
+    h2.primary-card-text {
+        text-align: center;
+        font-size: 32px;
+    }
+    .card-body.d-flex.justify-center {
+        flex-direction: column;
+    }
+    .card-content {
+        text-align: center;
+    }
+    .image_part
+    {
+        margin-right: 100px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    .banner_img {
+        right: 0;
+        bottom: -4px;
+    }
+    .client-logo a {
+        height: auto;
+        padding: 0;
+        max-width: 16%;
+    }
+    .about {
+        padding: 26px 0px;
+    }
+    .design .row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .design-text {
+        font-size: 35px;
+     }
+     .design .container {
+        padding-bottom: 20px;
+    }
+    section.design {
+        background: #fafafa;
+    }
+    .design .container {
+        padding-top: 0rem;
+    }
+    .row.d-flex.justify-center.align-center {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .efficiency li 
+    {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .right-img 
+    {
+        margin-top: 30px;
+    }
+    .col-30
+    {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .border-right 
+    {
+        border-right: none;
+    }
+    .col-25 
+    {
+        width: 50%;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .d-flex
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    a
+    {
+        font-size: 12px;    
+    }
+    p
+    {
+        font-size: 12px;
+    }
+
+    .right-img 
+    {
+        height: auto;
+    }
+
+    label #open
+    {
+        display: block;
+    }
+    ul
+    {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #FAFAFA;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .nav-list li
+    {
+        display: block;
+    }
+    nav ul li
+    {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .nav-sm{
+        width: 100%;
+        justify-content: space-between;
+    }
+    nav ul li a
+    {
+        font-size:20px; 
+    }
+    #check:checked ~ ul
+    {
+        left: 0 !important;
+    }
+
+    #check:checked ~ label #open
+    {
+        display: none;
+    }
+    #check:checked ~ label #cancel
+    {
+        display: block;
+    }
+    .displaynone
+    {
+        display: block;
+    }
+    .btn
+    {
+        display: none;
+    }
+    .col-50 
+    {
+        padding-top: 17px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .efficiency li 
+    {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    h2.primary-card-text {
+        font-size: 20px;
+    }
+    .image_part {
+        margin-right: 3rem;
+    }
+    .quite-text p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .col-4 
+    {
+        width: 70%;
+    }
+    .design-text {
+        font-size: 30px;
+    }
+    h2 
+    {
+        font-size: 32px;
+    }
+    .btn a
+    {
+        padding: 9px 15px;
+    }
+    .efficiency .btn a {
+        font-size: 10px !important;
+    }
+    .efficiency li {
+        font-size: 8px;
+        line-height: 18px;
+    }
+    .card-body.d-flex.justify-center {
+        margin: 0;
+    }
+    .about-card {
+        margin: 0;
+        width: 100%;
+    }
+    .client-logo {
+        width: 100%;
+        margin-top: 19px;
+    }
+    .col-8 {
+        width: 100%;
+    }
+    .col-50 {
+        width: 100%;
+    }
+    .faq-card {
+        padding: 24px 21px 12px 12px;
+    }
+    .faq h1 
+    {
+        margin-bottom: 2rem;
+    }
+    .faq:before 
+    {
+        height: 14rem;
+    }
+    .faq:after 
+    {    
+        height: 18rem;
+    }
+    .banner_img img 
+    {
+        width: 40%;
+    }
+    .banner_img
+    {
+        bottom: 60px;
+    }    
+    .banner 
+    {
+        height: 80vh;
+    }
+    .banner_img 
+    {
+        bottom: -4px;
+    }
+    h1 
+    {
+        font-size: 2em;
+        margin-left: 110px;
+    }
+    .primary_image 
+    {
+        left: 3rem;
+    }
+    h1 
+    {
+        margin-left: 43px;
+    }
+    .padd-up-down {
+        padding: -0.5rem 0;
+    }
+    .feedback .head-text 
+    {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .design-text {
+        font-size: 25px;
+    }
+    .design {
+        padding-bottom: 15px;
+    }
+    .col-25 
+    {
+        width: 100%;
+    }
+    .info-text p 
+    {
+        font-size: 10px;
+    }    
+    .footer-content 
+    {
+        padding: 13px 11px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .banner_img img {
+        display: none;
+    }
+    .banner_content 
+    {
+        margin-left: -35px;
+    }
+    .faq h1 
+    {
+        margin-bottom: 1rem;
+        margin-left: 10px;
+    }
+    h1
+    {
+        margin-left: 0px;
+    }
+    .banner 
+    {
+        height: 80vh;
+    }
+    section.banner.d-flex.justify-center.align-center.text-right {
+        background-position: center bottom;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .quote 
+    {
+        transform: scale(0.5);
+    }
+    .quote:after 
+    {
+        width: 184%;
+        height: 159%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}
